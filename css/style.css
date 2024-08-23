@@ -1,0 +1,298 @@
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* All common css end */
+/* Header Part start */
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.nav-link{
+   font-size: 18px;
+   font-weight: 700px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+  }
+.nav-link:hover{
+     color: #4756DF; 
+   }
+   .contactBtn a{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+     font-family: "Inter", sans-serif;
+   }
+/* Header Part end */
+
+/* Banner Part start */
+#bannerPart{
+background: url(../images/Banner.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.bannerOverly{
+    background: rgb(0, 0, 0, 0.62);
+    padding-top: 330px;
+    padding-bottom: 170px;
+}
+.bannerText h1{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+}
+.bannerText p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 0px 167px;
+}
+.bannerText a{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+}
+/* Banner Part end */
+/* Counter Part start */
+#counterPart{
+    padding: 165px 0;
+}
+.leftText h4{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #6A4DF4;
+}
+.leftText h3{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.counterItem h3{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.counterItem h4{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+}
+.extraBg{
+    background: #E0FFF9;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+
+/* Counter Part end */
+/* Service Part start */
+#ServicePart{
+    padding: 50px 0;
+}
+.serviceText h3{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.serviceText h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+}
+/* Service Part end */
+/* ServiceIcon Part start */
+.serviceItem{
+    padding: 40px;
+    text-align: center;
+    transition: 4s;
+}
+.serviceText h3 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+    padding: 15px 0;
+  }
+.serviceText p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+    line-height: 26px;
+} 
+.serviceItem:hover{
+    box-shadow: 0px 0px 5px 2px #da811b;
+    border-radius: 20px;
+}
+/* ServiceIcon Part end */
+/* resentWork Part start */
+#resentPart{
+    padding: 50px 0;
+}
+.resentText h3{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.resentText h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+}
+#resentPart{
+    padding: 50px 0;
+    background: #F3F3F3;
+}
+.resentItem{
+
+}
+.resenttText{
+padding: 20px;
+background: #fff;
+
+}
+.resenttText h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+  }
+  .resenttText p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+  }
+/* resentWork Part end */
+/* Duplicate Part start */
+#DuplicatePart{
+padding: 180px;
+}
+.DuplicateText h3{
+    font-size: 58px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.DuplicateText h4{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+}
+.duplicateText h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.duplicateText p{
+    font-size: 15.5px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+}
+/* Duplicate Part end */
+/* Reviw Part start */
+#reviwPart{
+    padding: 100px;
+}
+.reviwText h3{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+}
+.reviwText h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #737373;
+}
+.reviwer{
+    display: flex;
+}
+.reviwerName{
+    padding: 10px;
+}
+.reviwerName h3{
+    font-size: 6px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #232323
+}
+.reviwerName p{
+    font-size: 5px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #7B7B7B
+}
+
+/* Reviw Part end */
+/* Contact Part start */
+#contactPart{
+    padding: 150px 0;
+    background: #bfbfbf;
+  }
+  .contactArea{
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  .myInput{
+    padding: 15px ;
+  }
+  .frmBtn{
+    background: #6a4df4;
+    color: #fff;
+   padding: 25px;
+   border: none;
+   border-radius: 10px;
+  }
+  .contactText{
+    padding: 50px;
+  }
+  .contactText h3{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #151515;
+  }
+.contactText p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #7B7B7B
+  }
+/* Contact Part end */
